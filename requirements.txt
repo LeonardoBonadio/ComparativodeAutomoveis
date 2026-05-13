@@ -1,0 +1,7 @@
+openai
+python-dotenv
+pandas
+streamlit
+pydantic
+chromadb
+PyPDF2
