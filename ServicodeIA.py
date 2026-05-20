@@ -97,7 +97,7 @@ def process_rag(question, user_chunks, fixed_chunks=[]):
     """
     
     response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Você é um assistente útil e direto."},
             {"role": "user", "content": rag_prompt}
